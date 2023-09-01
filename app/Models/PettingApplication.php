@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class PettingApplication extends Model
 {
-    protected $table = 'petting_applications';
+    protected $table = 'petting_applications'; 
 
     protected $fillable = [
         'petting_request_id',
